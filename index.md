@@ -35,3 +35,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Evolution of the Trump's popularity and topic from 2015 to 2020
+## What Trump said and what people thought about him from 2015 to 2020
+
+```Abstract
+In 2016, the world was completely astonished: Donald Trump was elected president while all the surveys done until this moment estimated Hillary Clinton winner. The four following years were marked by shocking declarations on Twitter, controversies, withdrawal from previous agreements.
