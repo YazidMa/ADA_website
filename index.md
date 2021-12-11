@@ -40,4 +40,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ## What Trump said and what people thought about him from 2015 to 2020
 
 ```Abstract
+
 In 2016, the world was completely astonished: Donald Trump was elected president while all the surveys done until this moment estimated Hillary Clinton winner. The four following years were marked by shocking declarations on Twitter, controversies, withdrawal from previous agreements.
+```
