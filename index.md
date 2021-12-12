@@ -70,7 +70,7 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 ## Trump's popularity
 
-### Trump's popularity over the population
+### Trump's popularity in the population
 
 During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied [insert Flair or Vader] for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. [if Vader] The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. [if Flair] The algorithm directly return is a quotation is positive or negative.
 
@@ -98,7 +98,7 @@ But is this trend representative of all the American population ? Probably not. 
 
 [insert analysis of the graphs above]
 
-### Trump's popularity over newspaper
+### Trump's popularity in newspaper
 
 Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump.
 
