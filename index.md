@@ -72,6 +72,24 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 ### Trump's popularity over the population
 
+During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied [insert Flair or Vader] for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. [if Vader] The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. [if Flair] The algorithm directly return is a quotation is positive or negative.
 
+[insert the positivness of quotes about Truump over time]
+
+One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with the small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a [insert number of months] month time window instead of only one month.
+
+[insert the positivness of quotes about Trump over time with time window of 2-3-4 months instead of one]
+
+This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of the Trump's popularity rating over time.
+
+[insert, on the same graph, the popularity rating and the previous graph]
+
+[insert comments on the graph above]
+
+Plotting over months can hide general trends over years.
+
+[insert the graph with Trump popularity over year]
+
+It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019.
 
 ### Trump's popularity over newspaper
