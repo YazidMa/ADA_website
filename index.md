@@ -90,6 +90,29 @@ Plotting over months can hide general trends over years.
 
 [insert the graph with Trump popularity over year]
 
-It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019.
+It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower its popularity rating.
+
+But is this trend representative of all the American population ? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
+
+[insert the graph about popularity rate among ethnic groups]
+
+[insert analysis of the graphs above]
 
 ### Trump's popularity over newspaper
+
+Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump.
+
+[insert table or graph with the main newspapers, and their politial side]
+
+[insert the analysis of the graph above]
+
+However, this analysis is not complete, as a newspaper belonging to the same political side than Trump could report negative words about his policies. That was for example the case when Trump withdrew the accreditation of the journalist Jim Acosta: even Fox News, commonly on his side, criticized his decision. 
+As the sentiment analysis was already done for the Trump's popularity over the population, that was not big deal to use it for newspapers. 
+
+[insert a representation with the main newspapers, their political side, and the positivity of the words they quoted about Trump]
+
+[interpret the representation above]
+
+
+
+# Conclusion
