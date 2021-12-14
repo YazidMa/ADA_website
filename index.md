@@ -36,7 +36,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-## Evolution of the Trump's popularity and topic from 2015 to 2020
 ## What Trump said and what people thought about him from 2015 to 2020
 
 # Abstract
@@ -62,7 +61,7 @@ To answer the questions, we needed data. The one we use were extracted by an met
 
 ## Trump's main topics over time
 
-More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations ? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
+More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
 
 [insert the repartition over time of the Trump's topics]
 
@@ -72,11 +71,11 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 ### Trump's popularity in the population
 
-During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied [insert Flair or Vader] for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. [if Vader] The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. [if Flair] The algorithm directly return is a quotation is positive or negative.
+During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
 
 [insert the positivness of quotes about Truump over time]
 
-One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with the small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a [insert number of months] month time window instead of only one month.
+One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 [insert the positivness of quotes about Trump over time with time window of 2-3-4 months instead of one]
 
@@ -92,7 +91,8 @@ Plotting over months can hide general trends over years.
 
 It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower its popularity rating.
 
-But is this trend representative of all the American population ? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
+But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
+
 
 [insert the graph about popularity rate among ethnic groups]
 
@@ -100,7 +100,7 @@ But is this trend representative of all the American population ? Probably not. 
 
 ### Trump's popularity in newspaper
 
-Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump.
+Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump. To compare, we also represented the newspaper quoting the most Trump's word.
 
 [insert table or graph with the main newspapers, and their politial side]
 
