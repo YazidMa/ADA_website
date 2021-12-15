@@ -74,7 +74,7 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
 
-[insert the positivness of quotes about Truump over time]
+![image](https://user-images.githubusercontent.com/91223105/146194853-f9932d6b-680b-4666-9e0a-ed294fdd22ec.png)
 
 One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
@@ -88,7 +88,7 @@ This is quite better, the fluctuations are not correlated with the number of quo
 
 Plotting over months can hide general trends over years.
 
-[insert the graph with Trump popularity over year]
+![image](https://user-images.githubusercontent.com/91223105/146194929-20d9242b-d880-4424-b2c6-8dcd83db9dea.png)
 
 It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower its popularity rating.
 
@@ -114,6 +114,9 @@ As the sentiment analysis was already done for the Trump's popularity over the p
 
 [interpret the representation above]
 
+We can also analyse the newspapers quoting the most Trump. Here are the newspapers which have the most quoted Trump between 2015 and 2020:
 
+![image](https://user-images.githubusercontent.com/91223105/146193305-b033236b-3b80-4d06-bf59-5057de36a5a2.png)
 
+We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. 
 # Conclusion
