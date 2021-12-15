@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-![![Vader over years](https://user-images.githubusercontent.com/91223105/146189459-43e9e95e-9d2f-4be6-8d8c-820d05893958.png)]
+![Vader over years](https://user-images.githubusercontent.com/91223105/146189459-43e9e95e-9d2f-4be6-8d8c-820d05893958.png)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
