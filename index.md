@@ -73,9 +73,9 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
 
-![image](https://user-images.githubusercontent.com/91223105/146194853-f9932d6b-680b-4666-9e0a-ed294fdd22ec.png)
+![image](https://user-images.githubusercontent.com/91223105/146198738-c29b4519-c66f-4a05-b699-6b42755c50d7.png)
 
-One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
+One of the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 ![image](https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png)
 
