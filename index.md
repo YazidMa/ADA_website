@@ -25,7 +25,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-![Vader over years](https://user-images.githubusercontent.com/91223105/146189459-43e9e95e-9d2f-4be6-8d8c-820d05893958.png)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
@@ -78,7 +77,7 @@ During all its political involvement, Trump's was described as a divisive figure
 
 One one the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
-[insert the positivness of quotes about Trump over time with time window of 2-3-4 months instead of one]
+![image](https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png)
 
 This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of the Trump's popularity rating over time.
 
@@ -110,13 +109,19 @@ Many newspapers have quoted personalities talking about Trump since he began the
 However, this analysis is not complete, as a newspaper belonging to the same political side than Trump could report negative words about his policies. That was for example the case when Trump withdrew the accreditation of the journalist Jim Acosta: even Fox News, commonly on his side, criticized his decision. 
 As the sentiment analysis was already done for the Trump's popularity over the population, that was not big deal to use it for newspapers. 
 
-[insert a representation with the main newspapers, their political side, and the positivity of the words they quoted about Trump]
+![image](https://user-images.githubusercontent.com/91223105/146198115-38d1db66-c1a7-4bd8-a492-2db5c0501d51.png)
 
-[interpret the representation above]
+There is no general trend, the newspapers seem to quote equaly positive or negative quotes about Trump, whatever their political side. 
 
 We can also analyse the newspapers quoting the most Trump. Here are the newspapers which have the most quoted Trump between 2015 and 2020:
 
 ![image](https://user-images.githubusercontent.com/91223105/146193305-b033236b-3b80-4d06-bf59-5057de36a5a2.png)
 
-We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. 
+We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. It seems that these newspapers reported everything related to Trump, meaning both its words than words about him.
+However, this means nothing about the support or the opposition of these newspapers to Trump, as they can report positive or negative sentences of Trump. That is why, for each newspaper in the top 10, we represented the average of Trump quote positivity:
+
+![image](https://user-images.githubusercontent.com/91223105/146197657-fa4ddea9-eb36-4f1e-8e0a-8a0eddfe93b6.png)
+
+None of these newspapers reported more positive or negative sentences pronounced by Trump.
+
 # Conclusion
