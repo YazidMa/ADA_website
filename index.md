@@ -73,14 +73,13 @@ THOMAS POUR TON ANALYSE:
 - economy: il en parle bcp pendant sa campagne puis peu après ce qui semble logique. Pendant toute la campagne il a clamé que la Chine hurts the American economy by devaluating the yuan.
 - environnement: probablement pas grand chose puisque Trump a préféré agir dans l'ombre, supprimant 68 lois environnementales en toute discrétion
 - pandemic c'est bien sûr le Corona
+- ne pas oublier de dire que Trump ne parle pas d'éducation ni de je ne sais plus quoi
 
 ## Trump's popularity
 
 ### Trump's popularity in the population
 
 During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number, called the compound, between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
-
-![image](https://user-images.githubusercontent.com/91223105/146198738-c29b4519-c66f-4a05-b699-6b42755c50d7.png)
 
 ![image](https://user-images.githubusercontent.com/91223105/146353122-599f8468-a6e5-4a50-96a0-57b59af39973.png)
 
@@ -103,10 +102,15 @@ It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 
 
 But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
 
+We plotted the mean compound value for several speaker parameters. 
+![image](https://user-images.githubusercontent.com/91223105/146354906-630e0c96-3692-42de-b49c-4a9107e815d4.png)
 
-[insert the graph about popularity rate among ethnic groups]
+Immediatly, it appears that all the mean value are positive, meaning that, on average, the persons are more quoted when they talk positively about Trump. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so  let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
+The most positive quotations are from North American, European, and Australian people. 
+It appears that more men are quoting when talking about Trump than women (7979 against 1747). Moreover, men's quotes are more positive than women's ones.
+Here appears one of the most important limit of Vader function: indeed, according to Vader, the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result. We can also notice that only few Asian and Latino-American people are quoted (respectively 17 and 4).
 
-[insert analysis of the graphs above]
+TODO: JE NE COMPTE PAS PARLER DES PARTIS OU DES DEGREES PARCE QU'IL Y A TRES PEU DE DONNEES DESSUS DONC JE NE SUIS PAS SÛR QUE CE SOIT PERTINENT (QU'EN PENSEZ-VOUS?). RELIGION A LA RIGUEUR CHRETIEN ET HINDOU ?? ET POUR LES OCCUPATIONS CA PEUTT SE FAIRE MAIS FAUDRAIT QUE JE RETOUCHE UN PEU LE GRAPH PARCE QUE LA IL EST PAS SUPER LISIBLE
 
 ### Trump's popularity in newspaper
 
