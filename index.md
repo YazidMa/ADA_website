@@ -82,6 +82,9 @@ During all its political involvement, Trump's was described as a divisive figure
 
 ![image](https://user-images.githubusercontent.com/91223105/146198738-c29b4519-c66f-4a05-b699-6b42755c50d7.png)
 
+![image](https://user-images.githubusercontent.com/91223105/146353122-599f8468-a6e5-4a50-96a0-57b59af39973.png)
+
+
 One of the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 ![image](https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png)
