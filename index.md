@@ -67,6 +67,11 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 [insert the analysis of the graph above]
 
+THOMAS POUR TON ANALYSE:
+- foreign policy: le pic en 2017 correspond probablement à la crise avec la Corée du Nord (corroboré par le fait que ce soit un des plus gros mots du nuage)
+- environnement: probablement pas grand chose puisque Trump a préféré agir dans l'ombre, supprimant 68 lois environnementales en toute discrétion
+- pandemic c'est bien sûr le Corona
+
 ## Trump's popularity
 
 ### Trump's popularity in the population
