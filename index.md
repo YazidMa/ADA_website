@@ -68,7 +68,9 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 [insert the analysis of the graph above]
 
 THOMAS POUR TON ANALYSE:
-- foreign policy: le pic en 2017 correspond probablement à la crise avec la Corée du Nord (corroboré par le fait que ce soit un des plus gros mots du nuage)
+- foreign policy: le pic en 2017 correspond probablement à la crise avec la Corée du Nord (corroboré par le fait que ce soit un des plus gros mots du nuage). Celui de 2018 pourrait être lié à la crise avec le Pakistan (les mots Pakistan et Afghanistan sont gros dans le nuage), Trump tweetant en janvier que le Pakistan rewarded US aid with "nothing but lies and deceit". Il trouvait que les Pakistanais ne luttaient pas assez contre les Talibans à leur frontière avec l'Afghanistan, ce qui favoriserait selon lui le terrorisme. Le ppic de 2019 pourrait correspondre à l'affaire ukrainienne, puisqu'en septembre 2019, un lanceur d'alerte révèle que Trumpa demandé au président ukrainien de faire une enquête sur le fils de Joe Biden
+- racism je n'ai pas trouvé grand chose, surtout que les mots qui resortent le plus sont en lien avec la religiion plus que le reacisme. A noter qu'apparemment, Trump utilise presque 2 fois plus de mots faisant référence directement à Dieu que n'importe quel autre président de ces 100 dernières années pour se mettre les milieux religieux dans la poche, ce qui pourrait expliquer le pic en 2016 juste avant l'élection. Le pic de 2015 pourrait s'expliquer par la mort de Freddie Gray (Trump a en effet commenté l'affaire) mais peu de mots du nuage de mots sont en rapport avec l'affaire.
+- economy: il en parle bcp pendant sa campagne puis peu après ce qui semble logique. Pendant toute la campagne il a clamé que la Chine hurts the American economy by devaluating the yuan.
 - environnement: probablement pas grand chose puisque Trump a préféré agir dans l'ombre, supprimant 68 lois environnementales en toute discrétion
 - pandemic c'est bien sûr le Corona
 
