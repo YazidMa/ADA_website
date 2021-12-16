@@ -40,7 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 # Abstract
 
-In 2016, the world was completely astonished: Donald Trump was elected president while all the surveys done until this moment estimated Hillary Clinton winner. The four following years were marked by shocking declarations on Twitter, controversies, and withdrawal from previous agreements. But even if this president had been highly criticized by a part of the international community, he was almost ready to run a seond term on 2020. In order to understand better how Donald Trump brought support to his cause, two main parameters must be studied: what was his program before and after his nomination, and how his popularity rating evolved among time.
+In 2016, the world was completely astonished: Donald Trump was elected president while all the surveys done until this moment estimated Hillary Clinton winner. The four following years were marked by shocking declarations on Twitter, controversies, and withdrawal from previous agreements. But even if this president had been highly criticized by a part of the international community, he was almost ready to run a second term on 2020. In order to understand better how Donald Trump brought support to his cause, two main parameters must be studied: what was his program before and after his nomination, and how his popularity rating evolved among time.
 
 
 # Introduction
@@ -71,7 +71,7 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 ### Trump's popularity in the population
 
-During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
+During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? The first step was to select only the quotes talking about Trump (means that the quote author is not Trump, but that the word "Trump" appears in the quote). Then, we applied Vader for sentiment analysis. This method allows to determine the degree of posity of a quote, so applying it on the whole dataframe allows to determine the posity of all the quotes. The posity is given by a number, called the compound, between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
 
 ![image](https://user-images.githubusercontent.com/91223105/146198738-c29b4519-c66f-4a05-b699-6b42755c50d7.png)
 
@@ -89,7 +89,7 @@ Plotting over months can hide general trends over years.
 
 ![image](https://user-images.githubusercontent.com/91223105/146194929-20d9242b-d880-4424-b2c6-8dcd83db9dea.png)
 
-It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower its popularity rating.
+It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower his popularity rating.
 
 But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
 
@@ -102,9 +102,9 @@ But is this trend representative of all the American population? Probably not. S
 
 Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump. To compare, we also represented the newspaper quoting the most Trump's word.
 
-[insert table or graph with the main newspapers, and their politial side]
+![image](https://user-images.githubusercontent.com/91223105/146327129-428fc947-2ebf-4061-89b6-713df192c26d.png)
 
-[insert the analysis of the graph above]
+We canno't extract any general trend from this chart. It seems that the newspapers quoting the most people talking about Trump do not have the same political affiliation. 
 
 However, this analysis is not complete, as a newspaper belonging to the same political side than Trump could report negative words about his policies. That was for example the case when Trump withdrew the accreditation of the journalist Jim Acosta: even Fox News, commonly on his side, criticized his decision. 
 As the sentiment analysis was already done for the Trump's popularity over the population, that was not big deal to use it for newspapers. 
@@ -115,9 +115,9 @@ There is no general trend, the newspapers seem to quote equaly positive or negat
 
 We can also analyse the newspapers quoting the most Trump. Here are the newspapers which have the most quoted Trump between 2015 and 2020:
 
-![image](https://user-images.githubusercontent.com/91223105/146193305-b033236b-3b80-4d06-bf59-5057de36a5a2.png)
+![image](https://user-images.githubusercontent.com/91223105/146328647-25ec2375-c379-4a33-991c-91cfca260fe3.png)
 
-We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. It seems that these newspapers reported everything related to Trump, meaning both its words than words about him.
+We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. It seems that these newspapers reported everything related to Trump, meaning both its words than words about him. Nevertheless, we notice that the number of quotations from Trump is hugely higher in these newspapers than the number of quotations from people talking about Trump. Last, this time we can clearly see a ranking of the newspapers depending on their political affiliation: Conservative newspapers seem to quote more Trump than Liberal one.
 However, this means nothing about the support or the opposition of these newspapers to Trump, as they can report positive or negative sentences of Trump. That is why, for each newspaper in the top 10, we represented the average of Trump quote positivity:
 
 ![image](https://user-images.githubusercontent.com/91223105/146197657-fa4ddea9-eb36-4f1e-8e0a-8a0eddfe93b6.png)
