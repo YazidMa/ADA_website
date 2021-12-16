@@ -106,11 +106,36 @@ We plotted the mean compound value for several speaker parameters.
 ![image](https://user-images.githubusercontent.com/91223105/146354906-630e0c96-3692-42de-b49c-4a9107e815d4.png)
 
 Immediatly, it appears that all the mean value are positive, meaning that, on average, the persons are more quoted when they talk positively about Trump. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so  let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
+
 The most positive quotations are from North American, European, and Australian people. 
+
 It appears that more men are quoting when talking about Trump than women (7979 against 1747). Moreover, men's quotes are more positive than women's ones.
+
 Here appears one of the most important limit of Vader function: indeed, according to Vader, the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result. We can also notice that only few Asian and Latino-American people are quoted (respectively 17 and 4).
 
-TODO: JE NE COMPTE PAS PARLER DES PARTIS OU DES DEGREES PARCE QU'IL Y A TRES PEU DE DONNEES DESSUS DONC JE NE SUIS PAS SÛR QUE CE SOIT PERTINENT (QU'EN PENSEZ-VOUS?). RELIGION A LA RIGUEUR CHRETIEN ET HINDOU ?? ET POUR LES OCCUPATIONS CA PEUTT SE FAIRE MAIS FAUDRAIT QUE JE RETOUCHE UN PEU LE GRAPH PARCE QUE LA IL EST PAS SUPER LISIBLE
+![image](https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png)
+
+It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words).
+
+So far, the results are quite counter intuitive (for example, African Americans in favour of Trump while polls during Trump presidential reported 80% of opposition in African American population, or the fact that most parts of the world are in favour of Trump). For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
+We represented the percentage of negative sentences return by Flair for the previous categories.
+
+![image](https://user-images.githubusercontent.com/91223105/146430800-e17b6b28-1dc6-40d0-81a8-4fd0591c3612.png)
+![image](https://user-images.githubusercontent.com/91223105/146430834-77603837-850b-433d-9fc5-e601eaef0f3a.png)
+
+Immediately, it appears that the categories are more opposed to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.
+This time, North American, Asian, and African people are more opposed to Trump, while the other parts of the world are quite neutral. This is quite logic, as Trump was hugely criticized abroad.
+Women are more opposed to Trump than men who are quite neutral. 
+This time, both Democrats and Republicans are against Trump. One might think that we have the symmetric problem than Vader one, as Republican are not supposed to be against Trump. But in fact, Trump was criticized by his own party during his term (and no Democrat enhanced him). So Flair result is more realistic than Vader one.
+As a conclusion for the comparison between Vader and Flair, we see that, globally, we find the same difference as before when we compare the labels for a given category (the difference between Democrat and Republican approval is the same with both Vader and Flair). It is rather "reassuring" concerning the results.  The main difference is the absolute positivity value, as Flair is more negative than Vader, which corresponds more to the reality.
+These results are overall results from 2015 to 2020. But is there a difference in approval rating after Trump election?
+
+![image](https://user-images.githubusercontent.com/91223105/146430995-f96d0fb7-9a54-4eae-b532-8b46176d20b8.png)
+![image](https://user-images.githubusercontent.com/91223105/146431034-cabbf089-0373-470e-bbb8-df0b6dc41303.png)
+![image](https://user-images.githubusercontent.com/91223105/146431105-159090e7-cbac-4919-993c-71c762cfd043.png)
+![image](https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png)
+
+We can see that the opinion before and after the campaign is extremely different with a strong increase of the percentage of negative quotations after the campaign for almost all the categories and labels. We would thus have a much more negative general opinion of Trump after his campaign (i.e. during his presidency), which is rather in line with what we expect to have in reality. However, it should be kept in mind that here there is no error bars, which may qualify the analysis.
 
 ### Trump popularity in newspapers
 
