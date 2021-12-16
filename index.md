@@ -112,30 +112,43 @@ Here appears one of the most important limit of Vader function: indeed, accordin
 
 TODO: JE NE COMPTE PAS PARLER DES PARTIS OU DES DEGREES PARCE QU'IL Y A TRES PEU DE DONNEES DESSUS DONC JE NE SUIS PAS SÛR QUE CE SOIT PERTINENT (QU'EN PENSEZ-VOUS?). RELIGION A LA RIGUEUR CHRETIEN ET HINDOU ?? ET POUR LES OCCUPATIONS CA PEUTT SE FAIRE MAIS FAUDRAIT QUE JE RETOUCHE UN PEU LE GRAPH PARCE QUE LA IL EST PAS SUPER LISIBLE
 
-### Trump's popularity in newspaper
+### Trump popularity in newspapers
 
-Many newspapers have quoted personalities talking about Trump since he began the nomination race. The first look inside the data was to assess which newspapers quoted the most people talking about Trump. To compare, we also represented the newspaper quoting the most Trump's word.
+Many newspapers and media have quoted Trump directly or people talking about him since the start of his campaign. Ranking the publishers by the number of quotations in both cases can be informative to assess who is talking about Trump. The following table shows the top 10 publishers along with the number of quotations **about** Trump and the political affiliation.
 
 ![image](https://user-images.githubusercontent.com/91223105/146327129-428fc947-2ebf-4061-89b6-713df192c26d.png)
 
-We canno't extract any general trend from this chart. It seems that the newspapers quoting the most people talking about Trump do not have the same political affiliation. 
-
-However, this analysis is not complete, as a newspaper belonging to the same political side than Trump could report negative words about his policies. That was for example the case when Trump withdrew the accreditation of the journalist Jim Acosta: even Fox News, commonly on his side, criticized his decision. 
-As the sentiment analysis was already done for the Trump's popularity over the population, that was not big deal to use it for newspapers. 
-
-![image](https://user-images.githubusercontent.com/91223105/146198115-38d1db66-c1a7-4bd8-a492-2db5c0501d51.png)
-
-There is no general trend, the newspapers seem to quote equaly positive or negative quotes about Trump, whatever their political side. 
-
-We can also analyse the newspapers quoting the most Trump. Here are the newspapers which have the most quoted Trump between 2015 and 2020:
+Except for the fact that all of these publishers are based in the United States, we cannot extract any trend from that table. It seems that the political affiliation of the publishers is not correlated with the number of quotations. Conservative, liberal and non-affiliated media all report quotations about Trump. Repeating the procedure with the quotations **from** Trump being used by publishers yields different results.
 
 ![image](https://user-images.githubusercontent.com/91223105/146328647-25ec2375-c379-4a33-991c-91cfca260fe3.png)
 
-We notice that these newspapers are quite the same than those who quoted the most people talking about Trump. It seems that these newspapers reported everything related to Trump, meaning both its words than words about him. Nevertheless, we notice that the number of quotations from Trump is hugely higher in these newspapers than the number of quotations from people talking about Trump. Last, this time we can clearly see a ranking of the newspapers depending on their political affiliation: Conservative newspapers seem to quote more Trump than Liberal one.
-However, this means nothing about the support or the opposition of these newspapers to Trump, as they can report positive or negative sentences of Trump. That is why, for each newspaper in the top 10, we represented the average of Trump quote positivity:
+The first observation is that the number of quotations is much higher, therefore the results can be slightly more trusted. Additionally, it appears that conservative and non-affiliated newspaper quote Trump the most. However, it is not sufficient to clearly state that either the conservative over-promote Trump or that the Liberals do not quote him on purpose. The missing part of the analysis is the actual content of the quotes.
 
-![image](https://user-images.githubusercontent.com/91223105/146197657-fa4ddea9-eb36-4f1e-8e0a-8a0eddfe93b6.png)
+Intuitively, the idea that all publishers quote content related to Donald Trump is not surprising. After all, he was the president of the United States at the time. However, it may seem plausible that the conservative newspapers would depict him more positively than the liberal ones. Conversely, the opposite has been observed, for instance, when Trump withdrew the accreditation of the journalist Jim Acosta and Fox News, a conservative media commonly known to be highly sympathetic towards him, criticized his decision. The sentiment analysis proposed above can be used to assess this hypothesis.
 
-None of these newspapers reported more positive or negative sentences pronounced by Trump.
+![image](https://user-images.githubusercontent.com/61464628/146427939-cdb3c37a-05da-48cd-ba37-c4708c557dc1.png)
+
+The figure shown above displays the average Vader compound for the top 10 publishers of quotations **about** Trump. At first glance, it appears that liberal media outlets depict a more positive view of Donald Trump through their quotations. The first conservative publisher only appears in the fourth position. However, the confidence intervals shown in black should be taken into account. Indeed, it can be argued that for a slightly different sampling of the newspaper space, the ranking could have been completely different. Again, the same analysis can be performed for quotations **from** Trump.
+
+![image](https://user-images.githubusercontent.com/61464628/146427978-d1374b67-5ab6-4935-8284-2a60a5f0e009.png)
+
+First, it appears that most publishers have a similar score which is very close to the average score on the entire dataset. Again, the highest ranked newspaper is liberal and the the first conservative one ranks four. However, similarly to the previous paragraph, the confidence intervals, even though they are much more narrow, still indicate that the ranking is quite arbitrary. It seems that the quotations from or about Trump are not well correlated with the political affiliation of the publishers who decides to cite them. To get an idea of the big picture, it can be informative to plot the average Vader compound as a function of the number of quotations for the entire dataset, regardless of the political affiliations.
+
+![image](https://user-images.githubusercontent.com/61464628/146428033-59fc19be-42c8-4f56-9788-688bebf10364.png)
+![image](https://user-images.githubusercontent.com/61464628/146428045-710a2df9-735f-4829-8cb4-0e92e5c7196b.png)
+
+
+These figures speak for themselves. It clearly appears that the sentiment associated to the quotations converges to a slightly positive value in both cases. For sure, a region of extreme opinions can be observed in both plots but they correspond to an interval of small number of quotations which is therefore extremely noisy. 
+
+Finally, it seems reasonable to validate the analysis using an another sentiment analysis tool. A similar procedure can be conducted with Flair's predictions by normalizing the number of positive quotations between -1 and 1 for each publishers. Though comparable, this estimator can not be treated as strictly equivalent to the Vader score.
+
+![image](https://user-images.githubusercontent.com/61464628/146428074-352847e5-89cc-4eab-addb-dc8ec7454c56.png)
+
+Even though the mean value is slightly negative this time, a similar pattern as observed above appears: high variance and extreme values in the low number of quotations regime and convergence towards the mean value when the sample size increases. 
+
+In conclusion, the analysis proposed above seems to indicate that the  quotes about and from Trump published by a media is not representative  of its political affiliation. This could be due to respect towards the president or self censorship. Additionally, the  sentiment analysis is probably not perfect, resulting in noisy labels  for which the uncertainty is difficult to characterize. Moreover, it can be observed that the results of this analysis is coherent with the previous section in which we found that the difference between the sentiment analysis of the quotations about Trump were not significant between democrats and republicans. Finally, one could point out that this conclusion is not really surprising as the  sentiment of the quotations about and from a single man, however famous and power he is, is a weak signal: characterizing the affiliation of a publisher based on this estimator sounds like a shortcut and our analysis shows  that it is indeed one.
+
+
+
 
 # Conclusion
