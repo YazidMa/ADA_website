@@ -1,23 +1,24 @@
-## What Trump said and what people thought about him from 2015 to 2020
+## What image of Trump emerges from news articles between 2015 and 2020?
 
 # Abstract
 
-In 2016, the world was completely astonished: Donald Trump was elected president of the United States while all the polls estimated that Hillary Clinton would win. The following four years were marked by shocking declarations on Twitter, controversies, and withdrawals from previous agreements. But even though this president has been highly criticized by part of the international community, he was almost ready to run for a second term in 2020. In order to better understand how Donald Trump brought support to his cause, two main parameters must be studied: how his agenda changed before and after him entering office, and how his popularity evolved over time.
+In 2016, the world was completely astonished: Donald Trump was elected president of the United States while all the polls estimated that Hillary Clinton would win. The following four years were marked by shocking declarations on Twitter, controversies, and withdrawals from previous agreements. But even though this president has been highly criticized by part of the international community, he was almost ready to run for a second term in 2020. So looking at quotes from this president as well as quotes about him might offer another perspective on this situation. This opens the door to many questions: What are the issues that Trump has addressed during his campaign and his presidency? How is he perceived by different segments of the population? Is there any influence from newspapers? Let's find out through a corpus of thousands of quotations related to Trump and extracted from thousands of English news articles published between 2008 and 2020.
 
 
 # Introduction
 
 Three main questions guided this study.
+
 About Trump's program:
 -  Which topics did Donald Trump talk about the most during the presidential campaign (starting in 2015), and during his time in office (20/01/2017 - 20/01/2021)? Indeed, before looking at what Trump's supporters (or detractors) thought of him, we need to understand what he had to offer to US citizens. But studying his official agenda is not satisfactory, as it is subjective and instrumented to cater to voters' expectations, and thus not representative of the candidate's true thoughts. On the other hand, we believe that looking for topics appearing in Trump's quotes over time can be more telling. Then, the aim was to look for change over time in the topics discussed, for example before and after his election, or because of external events such as the Covid crisis.
 
 About Trump's supporters and opponents:
-- Can we quantify Trump's popularity over time? This time, instead of looking for topics in quotes, the idea is to establish whether a quote is in favor or against Trump's policies. Once again, the evolution over time could be linked to external events. Another aspect is the speakers' ethnicity, as Trump's speeches and policies rekindled tensions with minorities.
-- In which newspapers are Trump's quotations published? One of the key events of the 2016 campaign was the massive use of both fake news by Russia to discredit Hillary Clinton and tweets to be present on social media. This campaign appears to be a mediatic battle, in which newspapers played a great role. Different information can be provided by this study, as the relation between political affiliation of a newspaper and the positivity of the quotes it published.
+- Can we quantify Trump's popularity over time or according to the population group? So first the idea is to look at the sentiment of the quotes to quantify this popularity over time and and try to link it to current events. Secondly, it is interesting to look at whether this popularity depends on different population groups.
+- In which newspapers are Trump's quotations published? One of the key events of the 2016 campaign was the massive use of both fake news by Russia to discredit Hillary Clinton and tweets to be present on social media. This campaign appears to be a mediatic battle, in which newspapers played a great role. Different information could be provided by this study, as the relation between political affiliation of a newspaper and the positivity of the quotes it published.
 
-# Method
+# Dataset
  
-To answer the questions, we needed data. This took the form of quotations extracted from news articles in _Quotebank: A Corpus of Quotations from a Decade of News_ (TODO mettre une référence un peu plus propre ?). Briefly, quotations were extracted from English language articles, and their authors were estimated by the program with a confidence value. As the quotation corpus is huge (178 million quotations), the data had to be processed smartly so that the data was manageable in its size. For that reason, only the data from 2015 to 2020 was selected (one year before Trump's election and until the end of his term). Furthermore, only the remaining quotations from Trump or talking about Trump in English were kept. After this preprocessing step, only 1,097,729 quotes remained, which is enough for our analysis, yet remains manageable.
+To answer the questions, we needed data. This took the form of quotations extracted from news articles in _Quotebank: A Corpus of Quotations from a Decade of News_ (TODO mettre une référence un peu plus propre ?). Briefly, this dataset is made of quotations that were extracted from English language articles, and their authors were estimated by the program with a confidence value. As the quotation corpus is huge (178 million quotations), we select only the quotations in the period which should a priori concern Trump the most, i.e. data from 2015 to 2020 (one year before Trump’s election until the end of his term). Furthermore, only the remaining quotations from Trump or talking about Trump in English were kept. After this preprocessing step, only 1,097,729 quotes remained, which is enough for our analysis, yet remains manageable.
 
 # Results
 
