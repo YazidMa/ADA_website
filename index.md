@@ -46,6 +46,7 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
   <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
 </p>
 Next up is the Foreign Policy, a topic which Trump relatively ignored before he was elected, but then took great importance. Indeed, during his time in office, Trump faced several foreign crises. We interpret the three major peaks on the graph as follows:
+
  - 2017 peak: this probably corresponds to the crisis with North Korea (this is supported by the prominence of "Korea" in the word cloud). 
  - 2018 peak: could be linked to the crisis with Pakistan ("Pakistan" and "Afghanistan" are important words in the word cloud), as Trump tweeted in January that Pakistan rewarded US aid with "nothing but lies and deceit"
  - 2019 peak: could correspond to the Ukraine affair, in which, in September 2019, a whistleblower revealed that Trump asked the Ukrainian president to investigate Joe Biden's son.
