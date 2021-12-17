@@ -27,7 +27,7 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
 
 <p float="center">
    <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1000" />
-  <img src="https://user-images.githubusercontent.com/57459514/146548226-96982486-d701-4dee-8948-77411be34637.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/57459514/146548226-96982486-d701-4dee-8948-77411be34637.png" width="200" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/57459514/146548226-96982486-d701-4dee-8948-77411be34637.png" width="200"/>
