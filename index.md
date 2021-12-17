@@ -149,7 +149,6 @@ The disadvantage of Flair, however, is the lack of an error bar to better judge 
 
 These results are overall results from 2015 to 2020. But is there a difference in approval rating when we compare before and after Trump election?
 
-**TODO : changer image par celle de Vader plutôt**
 <p align="center">
    <img src="https://user-images.githubusercontent.com/92359177/146588657-44bc07a3-8a09-49f4-a4c8-dececdf8cbd8.png" width="800" />
 </p>
