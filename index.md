@@ -123,14 +123,15 @@ We represented the percentage of negative sentences return by Flair for the prev
 ![image](https://user-images.githubusercontent.com/91223105/146430800-e17b6b28-1dc6-40d0-81a8-4fd0591c3612.png)
 ![image](https://user-images.githubusercontent.com/91223105/146430834-77603837-850b-433d-9fc5-e601eaef0f3a.png)
 
-Immediately, it appears that the categories are more opposed to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.
+Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.  
 This time, North American, Asian, and African people are more opposed to Trump, while the other parts of the world are quite neutral. This is quite logic, as Trump was hugely criticized abroad.
-Women are more opposed to Trump than men who are quite neutral. 
-This time, both Democrats and Republicans are against Trump. One might think that we have the symmetric problem than Vader one, as Republican are not supposed to be against Trump. But in fact, Trump was criticized by his own party during his term (and no Democrat enhanced him). So Flair result is more realistic than Vader one.
+Women are more opposed to Trump than men who are quite neutral.  
+Moreover, both Democrats and Republicans are against Trump. One might think that we have the symmetric problem than Vader one, as Republican are not supposed to be against Trump. But in fact, Trump was criticized by his own party during his term (and no Democrat enhanced him). So Flair result is more realistic than Vader one.  
 As a conclusion for the comparison between Vader and Flair, we see that, globally, we find the same difference as before when we compare the labels for a given category (the difference between Democrat and Republican approval is the same with both Vader and Flair). It is rather "reassuring" concerning the results.  The main difference is the absolute positivity value, as Flair is more negative than Vader, which corresponds more to the reality.
-These results are overall results from 2015 to 2020. But is there a difference in approval rating after Trump election?
 
+These results are overall results from 2015 to 2020. But is there a difference in approval rating when we compare before and after Trump election?
 
+**TODO : changer image par celle de Vader plutôt**
 <p align="center">
    <img src="https://user-images.githubusercontent.com/91223105/146430995-f96d0fb7-9a54-4eae-b532-8b46176d20b8.png" width="400" />
     <img src="https://user-images.githubusercontent.com/91223105/146431034-cabbf089-0373-470e-bbb8-df0b6dc41303.png" width="400" />
@@ -138,7 +139,13 @@ These results are overall results from 2015 to 2020. But is there a difference i
    <img src="https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png" width="400" />
 </p>
 
-We can see that the opinion before and after the campaign is extremely different with a strong increase of the percentage of negative quotations after the campaign for almost all the categories and labels. We would thus have a much more negative general opinion of Trump after his campaign (i.e. during his presidency), which is rather in line with what we expect to have in reality. However, it should be kept in mind that here there is no error bars, which may qualify the analysis.
+There is no obvious difference. We can however note maybe a slight decrease for North America, 
+For gender: we don't really see differences for women, but men's opinions seem to be less positive.
+For ethnic_group, academic_degree and religion: no significant differences but again analysis limited by the number.
+For occupations: it is interesting to note a less positive opinion over time in politics.
+For parties: Republicans have a fairly consistent opinion while Republicans have a less positive opinion.
+=> In conclusion, either no change or less positive opinion toward Trump over time.
+
 
 ### Trump's popularity in newspapers
 
