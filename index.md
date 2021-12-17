@@ -25,6 +25,18 @@ To answer the questions, we needed data. The one we use were extracted by an met
 
 More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
 
+
+![topic_racism](https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png)
+![topic_economy](https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png)
+![topic_environment](https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png)
+![topic_foreign_policy](https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png)
+
+![topic_pandemic](https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png)
+
+
+![topic_all](https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png)
+
+
 [insert the repartition over time of the Trump's topics]
 
 [insert the analysis of the graph above]
