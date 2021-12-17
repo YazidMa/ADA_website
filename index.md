@@ -36,6 +36,7 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
   <img src="https://user-images.githubusercontent.com/57459514/146549316-7e4c84f4-f1a7-4aa8-93a6-96e7243ec8f7.png" width="400" />
 </p>
 
+First off is the graph for the Racism topic. We can see that the topic is much more actively discussed by Trump before than during his time in office. The 2015 peak might be interpretable as linked to the death of Freddie Gray, on which Trump commented.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1400" />
 </p>
@@ -63,9 +64,6 @@ Finally, we show the evolution of the topics all together. We notice that the sc
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
-
-- racism je n'ai pas trouvé grand chose, surtout que les mots qui resortent le plus sont en lien avec la religiion plus que le reacisme. A noter qu'apparemment, Trump utilise presque 2 fois plus de mots faisant référence directement à Dieu que n'importe quel autre président de ces 100 dernières années pour se mettre les milieux religieux dans la poche, ce qui pourrait expliquer le pic en 2016 juste avant l'élection. Le pic de 2015 pourrait s'expliquer par la mort de Freddie Gray (Trump a en effet commenté l'affaire) mais peu de mots du nuage de mots sont en rapport avec l'affaire.
-- economy: 
 
 ## Trump's popularity
 
