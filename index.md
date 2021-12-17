@@ -73,7 +73,7 @@ During all his political involvement, Trump was described as a divisive figure. 
 
 First, we look at the sentiments of the quote set over time.
 
-![image](https://user-images.githubusercontent.com/91223105/146353122-599f8468-a6e5-4a50-96a0-57b59af39973.png)
+![image](https://user-images.githubusercontent.com/91223105/146583542-64ca0983-592f-4b22-8095-f1502640f4b5.png)
 
 One of the first trends we see while looking at this graph is that the peaks are strongly correlated with a small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
@@ -81,7 +81,7 @@ One of the first trends we see while looking at this graph is that the peaks are
    <![image](https://user-images.githubusercontent.com/92359177/146580435-dca42bd7-18bd-4f57-a343-e44278e9c554.png)>
 </p>
  
-This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. https://fr.wikipedia.org/wiki/Bonjour Overall, the trend seems quite similar with what we have.
+This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. ![link](https://fr.wikipedia.org/wiki/Bonjour) Overall, the trend seems quite similar with what we have.
 
 Plotting over months can hide general trends over years.
 
