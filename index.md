@@ -214,5 +214,7 @@ In conclusion, the analysis proposed above seems to indicate that the  quotes ab
 We have seen that the topics which Trump adresses in his speech are everchanging. They reflect both the current issues happening in the USA and in the world, and there are differences between pre- and post-election.
 
 Trump's popularity was better before his campaign and decreased over time. It can be noted that this popularity also depends on the population groups. For example, Asian speakers have worse feelings towards Trump than Europeans, Australians and North Americans, or politicians have worse feelings than people with occupations in sports or movies. Interestingly, the political parties do not have very different opinions. However, it is important to keep in mind that some bias may exist in the choice of quotes in Quotebank from the start.
-Part 3  
-Phrase finale
+
+We saw that most publishers, regardless of their political views, talk about and from Trump. Moreover, it seems that the sentiment associated to the quotes is not representative of the publishers' political affiliation as on average, all of them depict a moderate opinion of the ex-president.
+
+Overall, the Quotebank dataset is a great project and was fun to work with !
