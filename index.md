@@ -81,11 +81,7 @@ One of the first trends we see while looking at this graph is that the peaks are
    <img src="https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png" width="900" />
 </p>
  
-This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time.
-
-[insert, on the same graph, the popularity rating and the previous graph]
-
-[insert comments on the graph above]
+This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. https://fr.wikipedia.org/wiki/Bonjour
 
 Plotting over months can hide general trends over years.
 
