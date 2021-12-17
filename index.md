@@ -21,9 +21,9 @@ To answer the questions, we needed data. This took the form of quotations extrac
 
 # Results
 
-## Trump's main topics over time
+## The evolution of Trump's speaking topics
 
-More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
+Moreso than any other president, Trump liked to publish his thoughts on Twitter. Those then get quoted by news sites. For that reason, many of his ideas are available in our dataset. To extract them, we thus consider only the quotations spoken by Trump. At this point, the operation became a bit more complicated: how to determine the topics in Trump's quotations? We decided to use Empath, which is a tool for analyzing text across lexical categories. The text was classified using many topics, of which we retained five which gave the most interesting results: racism, economy, environment, foreign policy, and pandemic.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png" width="400" />
