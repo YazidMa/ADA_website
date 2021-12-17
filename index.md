@@ -69,20 +69,19 @@ Finally, we show the evolution of the topics all together. We notice that the sc
 
 ### Trump's popularity in the population
 
-During all its political involvement, Trump's was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? We applied the Vader sentiment analysis library on the quotes talking about Trump, i.e quotes that include the word "Trump" except those authored by Trump. This method allows to determine the degree of positivity. This sentiment is given by a number, called the compound, between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
+During all his political involvement, Trump was described as a divisive figure. The controversies he created reinforced the adhesion of a part of the population, and reinforced the opposition of the other part. But is this trend visible in quotes from people talking about Trump? We applied the Vader sentiment analysis model on the quotes talking about Trump, i.e. quotes that include the word "Trump" except those authored by Trump. This method allows us to determine the degree of positivity. This sentiment is given by a number, called the compound, between -1 and 1. The closer to 1, the more positive the quotation, the closer to -1, the more negative. 
 
 First, we look at the sentiments of the quote set over time.
 
 ![image](https://user-images.githubusercontent.com/91223105/146353122-599f8468-a6e5-4a50-96a0-57b59af39973.png)
 
-
-One of the first trend we see while looking at this graph is that the peaks are strongly correlated with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
+One of the first trends we see while looking at this graph is that the peaks are strongly correlated with a small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png" width="900" />
 </p>
  
-This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of the Trump's popularity rating over time.
+This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time.
 
 [insert, on the same graph, the popularity rating and the previous graph]
 
