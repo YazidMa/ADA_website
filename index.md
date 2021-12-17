@@ -23,7 +23,9 @@ To answer the questions, we needed data. This took the form of quotations extrac
 
 ## The evolution of Trump's speaking topics
 
-Moreso than any other president, Trump liked to publish his thoughts on Twitter. Those then get quoted by news sites. For that reason, many of his ideas are available in our dataset. To extract them, we thus consider only the quotations spoken by Trump. At this point, the operation became a bit more complicated: how to determine the topics in Trump's quotations? We decided to use Empath, which is a tool for analyzing text across lexical categories. The text was classified using many topics, of which we retained five which gave the most interesting results: racism, economy, environment, foreign policy, and pandemic.
+Moreso than any other president, Trump liked to publish his thoughts on Twitter. Those then get quoted by news sites. For that reason, many of his ideas are available in our dataset. To extract them, we thus consider only the quotations spoken by Trump. At this point, the operation became a bit more complicated: how to determine the topics in Trump's quotations? We decided to use Empath, which is a tool for analyzing text across lexical categories. The text was classified using many topics, of which we retained the five which gave the most interesting results: racism, economy, environment, foreign policy, and pandemic.
+
+Below are shown word clouds for each topic, to illustrate what kind of vocabulary Trump uses to talk about the topics. In these, larger words were uttered more frequently.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png" width="400" />
@@ -34,12 +36,12 @@ Moreso than any other president, Trump liked to publish his thoughts on Twitter.
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1200" />
-  <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1200" />
-  <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1200" />
-  <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1200" />
-  <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1200" />
-   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1200" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
+   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
 
 
