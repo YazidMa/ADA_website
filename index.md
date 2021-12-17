@@ -1,5 +1,3 @@
-## What image of Trump emerges from news articles between 2015 and 2020?
-
 # Abstract
 
 In 2016, the world was completely astonished: Donald Trump was elected president of the United States while all the polls estimated that Hillary Clinton would win. The following four years were marked by shocking declarations on Twitter, controversies, and withdrawals from previous agreements. But even though this president has been highly criticized by part of the international community, he was almost ready to run for a second term in 2020. So looking at quotes from this president as well as quotes about him might offer another perspective on this situation. This opens the door to many questions: What are the issues that Trump has addressed during his campaign and his presidency? How is he perceived by different segments of the population? Is there any influence from newspapers? Let's find out through a corpus of thousands of quotations related to Trump and extracted from thousands of English news articles published between 2008 and 2020.
