@@ -39,10 +39,11 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1400" />
 </p>
+The Economy topic is much more present before the election, which makes sense as Trump spent the whole campaign claiming that China was hurting the American economy by devaluating the yuan.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1400" />
 </p>
-Below is shown the Environment topic, for which the three maxima also occur before Trump entered office, but not much talk afterwards. This is understandable as Trump favored acting in the shadows for this topic, having discretely suppressed 68 laws on environment.
+Below is shown the Environment topic, for which the three maxima also occur before or right after Trump entered office, but not much talk afterwards. This is understandable as Trump favored acting in the shadows for this topic, having discretely suppressed 68 laws on environment.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
 </p>
@@ -64,7 +65,7 @@ Finally, we show the evolution of the topics all together. We notice that the sc
 </p>
 
 - racism je n'ai pas trouvé grand chose, surtout que les mots qui resortent le plus sont en lien avec la religiion plus que le reacisme. A noter qu'apparemment, Trump utilise presque 2 fois plus de mots faisant référence directement à Dieu que n'importe quel autre président de ces 100 dernières années pour se mettre les milieux religieux dans la poche, ce qui pourrait expliquer le pic en 2016 juste avant l'élection. Le pic de 2015 pourrait s'expliquer par la mort de Freddie Gray (Trump a en effet commenté l'affaire) mais peu de mots du nuage de mots sont en rapport avec l'affaire.
-- economy: il en parle bcp pendant sa campagne puis peu après ce qui semble logique. Pendant toute la campagne il a clamé que la Chine hurts the American economy by devaluating the yuan.
+- economy: 
 
 ## Trump's popularity
 
