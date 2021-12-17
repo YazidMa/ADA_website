@@ -96,22 +96,31 @@ Plotting over months can hide general trends over years.
 
 It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower his popularity rating.
 
-But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers, and especially their ethnicities. Indeed, Trump's term was marked by racial issues like George Floyd death. These problems could have modified the way ethnic groups thought about Trump.
+But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers.
 
 We plotted the mean compound value for several speaker parameters. 
 ![image](https://user-images.githubusercontent.com/91223105/146354906-630e0c96-3692-42de-b49c-4a9107e815d4.png)
 
-Immediatly, it appears that all the mean value are positive, meaning that, on average, the persons are more quoted when they talk positively about Trump. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so  let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
-
-The most positive quotations are from North American, European, and Australian people. 
-
-It appears that more men are quoting when talking about Trump than women (7979 against 1747). Moreover, men's quotes are more positive than women's ones.
-
-Here appears one of the most important limit of Vader function: indeed, according to Vader, the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result. We can also notice that only few Asian and Latino-American people are quoted (respectively 17 and 4).
-
 <p align="center">
    <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
 </p>
+
+**TODO** : ajouter les violins plot pour voir la dispertion
+
+It appears that all the mean value are slightly positive, meaning that, on average, the persons are more quoted when they talk positively about Trump, which is rather the opposite of what one would expect. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
+
+We can also note that there are no extremes. Two hypotheses can be put forward: either the feelings are extreme in the given category and thus the positive and negative compensate each other to give a more nuanced set, or the feelings are nuanced from the start. We can investigate this thanks to the violinplots: in general, we notice that feelings about Trump are widely dispersed between -1 and 1, showing great diversity.
+
+Nationality, gender and occupation seem to present differences in opinion about Trump. For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. For gender, it is males who are more supportive of Trump than females. For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.
+For the party, there are no differences between Republicans and Democrats.
+
+Looking at the ethnic group makes appeared limit of Vader function: indeed, according to Vader, the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result. We can also notice that only few Asian and Latino-American people are quoted (respectively 17 and 4).
+
+It is interesting to note also the differences in the number of citations between the labels. It appears that more men are quoting when talking about Trump than women (7979 against 1747). Moreover, men's quotes are more positive than women's ones.
+
+
+
+
 
 It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words).
 
