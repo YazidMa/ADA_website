@@ -33,12 +33,14 @@ More than all other presidents, Trump published many ideas on Twitter, that are 
   <img src="https://user-images.githubusercontent.com/57459514/146549316-7e4c84f4-f1a7-4aa8-93a6-96e7243ec8f7.png" width="400" />
 </p>
 
-![topic_racism](https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png)
-![topic_economy](https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png)
-![topic_environment](https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png)
-![topic_foreign_policy](https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png)
-![topic_pandemic](https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png)
-![topic_all](https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1200" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1200" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1200" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1200" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1200" />
+   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1200" />
+</p>
 
 
 [insert the repartition over time of the Trump's topics]
