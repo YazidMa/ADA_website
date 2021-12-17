@@ -74,13 +74,13 @@ During all his political involvement, Trump was described as a divisive figure. 
 First, we look at the sentiments of the quote set over time.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/91223105/146583542-64ca0983-592f-4b22-8095-f1502640f4b5.png" width="1400" /> 
+ <img src="https://user-images.githubusercontent.com/91223105/146583542-64ca0983-592f-4b22-8095-f1502640f4b5.png" width="1000" /> 
 </p>
 
 One of the first trends we see while looking at this graph is that the peaks are strongly correlated with a small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146580435-dca42bd7-18bd-4f57-a343-e44278e9c554.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146580435-dca42bd7-18bd-4f57-a343-e44278e9c554.png" width="700" />
 </p>
  
 This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. ![link](https://fr.wikipedia.org/wiki/Bonjour) Overall, the trend seems quite similar with what we have.
@@ -88,7 +88,7 @@ This is quite better, the fluctuations are not correlated with the number of quo
 Plotting over months can hide general trends over years.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146580564-907fa3be-6400-477a-8b0e-9c25be0b0c27.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146580564-907fa3be-6400-477a-8b0e-9c25be0b0c27.png" width="400" />
 </p>
 
 It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower his popularity rating.
@@ -98,31 +98,31 @@ But is this trend representative of all the American population? Probably not. S
 We plotted the mean compound value for several speaker parameters.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146584161-ffc6058b-ab07-4c46-9933-8b94b5bd9529.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146584161-ffc6058b-ab07-4c46-9933-8b94b5bd9529.png" width="300" />
 </p>
 
 For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. We can see in particular that the South America continent is largely under-represented compared to the others. Africa is also under-represented but in a less marked way.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146584244-b813524f-3a27-4d13-b482-d761cc8ff1b8.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146584244-b813524f-3a27-4d13-b482-d761cc8ff1b8.png" width="300" />
 </p>
 
 For gender, it is males who are more supportive of Trump than females. It appears that more men are quoting when talking about Trump than women (7979 against 1747), however these differences in numbers are probably due to biases in the original database rather than the subject of Trump.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146584423-4c7f1d92-a449-4244-a0e7-958bf54a83ef.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146584423-4c7f1d92-a449-4244-a0e7-958bf54a83ef.png" width="300" />
 </p>
 
 For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.  
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146584377-ad5c4003-6f8c-4d24-846d-1ce40b19d336.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146584377-ad5c4003-6f8c-4d24-846d-1ce40b19d336.png" width="300" />
 </p>
 
 For the party, there are no differences between Republicans and Democrats. It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words). Moreover, we can note that the numbers of quotations is very well balanced.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/92359177/146584296-0a9f9ff8-0630-4306-9a04-bfeb449e35a7.png" width="1400" />
+ <img src="https://user-images.githubusercontent.com/92359177/146584296-0a9f9ff8-0630-4306-9a04-bfeb449e35a7.png" width="300" />
 </p>
 
 Ethnic group are more complicated to analyze considering the number of quotes available: there are only few Asian and Latino-American people are quoted (respectively 17 and 4). Here it seems that the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result, and it could also be due to limitations of Vader.
