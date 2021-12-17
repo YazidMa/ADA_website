@@ -37,12 +37,20 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1400" />
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1400" />
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
+</p>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
 </p>
-Finally, we show the evolution of the topics all together. We notice that the scales of topic frequencies are quite different, with Economy and Environment being relatively less frequent and Foreign policy (and eventually Pandemic) being more prominent. 
+Finally, we show the evolution of the topics all together. We notice that the scales of topic frequencies are quite different, with Economy and Environment being relatively less frequent and Foreign policy (and eventually Pandemic) being more prominent in Trump's speech. 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
