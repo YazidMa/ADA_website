@@ -23,7 +23,7 @@ To answer the questions, we needed data. This took the form of quotations extrac
 
 ## The evolution of Trump's speaking topics
 
-Moreso than any other president, Trump liked to publish his thoughts on Twitter. Those then get quoted by news sites. For that reason, many of his ideas are available in our dataset. To extract them, we thus consider only the quotations spoken by Trump. At this point, the operation became a bit more complicated: how to determine the topics in Trump's quotations? We decided to use Empath, which is a tool for analyzing text across lexical categories. The text was classified using many topics, of which we retained the five which gave the most interesting results: racism, economy, environment, foreign policy, and pandemic.
+Moreso than any other president, Trump liked to publish his thoughts on Twitter. Those then get quoted by news sites. For that reason, many of his ideas are available in our dataset. To extract them, we thus consider only the quotations spoken by Trump. At this point, the operation became a bit more complicated: how to determine the topics in Trump's quotations? We decided to use Empath, which is a tool for analyzing text across lexical categories. The text was classified using many topics, of which we retained the five which gave the most interesting results: Racism, Economy, Environment, Foreign policy, and Pandemic.
 
 Below are shown word clouds for each topic, to illustrate what kind of vocabulary Trump uses to talk about the topics. In these, larger words were uttered more frequently.
 
@@ -42,6 +42,7 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
   <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
   <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
 </p>
+Finally, we show the evolution of the topics all together. We notice that the scales of topic frequencies are quite different, with Economy and Environment being relatively less frequent and Foreign policy (and eventually Pandemic) being more prominent. 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
