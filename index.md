@@ -173,23 +173,32 @@ The first observation is that the number of quotations is much higher, therefore
 
 Intuitively, the idea that all publishers quote content related to Donald Trump is not surprising. After all, he was the president of the United States at the time. However, it may seem plausible that the conservative newspapers would depict him more positively than the liberal ones. Conversely, the opposite has been observed, for instance, when Trump withdrew the accreditation of the journalist Jim Acosta and Fox News, a conservative media commonly known to be highly sympathetic towards him, criticized his decision. The sentiment analysis proposed above can be used to assess this hypothesis.
 
-![image](https://user-images.githubusercontent.com/91223105/146607721-71a4eb87-5fa3-4fee-8e32-ced59c5c8842.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146607721-71a4eb87-5fa3-4fee-8e32-ced59c5c8842.png" width="500" />
+</p>
 
 The figure shown above displays the average Vader compound for the top 10 publishers of quotations **about** Trump. At first glance, it appears that liberal media outlets depict a more positive view of Donald Trump through their quotations. The first conservative publisher only appears in the fourth position. However, the confidence intervals shown in black should be taken into account. Indeed, it can be argued that for a slightly different sampling of the newspaper space, the ranking could have been completely different. Again, the same analysis can be performed for quotations **from** Trump.
 
-![image](https://user-images.githubusercontent.com/91223105/146607777-8157733d-2231-4bd6-bed1-9de8c912be8f.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146607777-8157733d-2231-4bd6-bed1-9de8c912be8f.png" width="500" />
+</p>
 
 First, it appears that most publishers have a similar score which is very close to the average score on the entire dataset. Again, the highest ranked newspaper is liberal and the the first conservative one ranks four. However, similarly to the previous paragraph, the confidence intervals, even though they are much more narrow, still indicate that the ranking is quite arbitrary. It seems that the quotations from or about Trump are not well correlated with the political affiliation of the publishers who decides to cite them. To get an idea of the big picture, it can be informative to plot the average Vader compound as a function of the number of quotations for the entire dataset, regardless of the political affiliations.
 
-![image](https://user-images.githubusercontent.com/91223105/146607555-7b9947e4-29b2-43fe-a447-0340b9d2ff7a.png)
-![image](https://user-images.githubusercontent.com/91223105/146607616-8e002102-8b3e-486c-a8a4-021de2d04989.png)
-
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146607555-7b9947e4-29b2-43fe-a447-0340b9d2ff7a.png" width="500" />
+</p>
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146607616-8e002102-8b3e-486c-a8a4-021de2d04989.png" width="500" />
+</p>
 
 These figures speak for themselves. It clearly appears that the sentiment associated to the quotations converges to a slightly positive value in both cases. For sure, a region of extreme opinions can be observed in both plots but they correspond to an interval of small number of quotations which is therefore extremely noisy. 
 
 Finally, it seems reasonable to validate the analysis using an another sentiment analysis tool. A similar procedure can be conducted with Flair's predictions by normalizing the number of positive quotations between -1 and 1 for each publishers. Though comparable, this estimator can not be treated as strictly equivalent to the Vader score.
 
-![image](https://user-images.githubusercontent.com/61464628/146428074-352847e5-89cc-4eab-addb-dc8ec7454c56.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146607876-70cac069-26d2-4aec-8fe9-0e092b360f76.png" width="500" />
+</p>
 
 Even though the mean value is slightly negative this time, a similar pattern as observed above appears: high variance and extreme values in the low number of quotations regime and convergence towards the mean value when the sample size increases. 
 
