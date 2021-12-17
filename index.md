@@ -11,7 +11,7 @@ Three main questions guided this study.
 About Trump's program:
 -  Which topics did Donald Trump talk about the most during the presidential campaign (starting in 2015), and during his time in office (20/01/2017 - 20/01/2021)? Indeed, before looking at what Trump's supporters (or detractors) thought of him, we need to understand what he had to offer to US citizens. But studying his official agenda is not satisfactory, as it is subjective and instrumented to cater to voters' expectations, and thus not representative of the candidate's true thoughts. On the other hand, we believe that looking for topics appearing in Trump's quotes over time can be more telling. Then, the aim was to look for change over time in the topics discussed, for example before and after his election, or because of external events such as the Covid crisis.
 
-About Trump' supporters and opponents:
+About Trump's supporters and opponents:
 - Can we quantify Trump's popularity over time? This time, instead of looking for topics in quotes, the idea is to establish whether a quote is in favor or against Trump's policies. Once again, the evolution over time could be linked to external events. Another aspect is the speakers' ethnicity, as Trump's speeches and policies rekindled tensions with minorities.
 - In which newspapers are Trump's quotations published? One of the key events of the 2016 campaign was the massive use of both fake news by Russia to discredit Hillary Clinton and tweets to be present on social media. This campaign appears to be a mediatic battle, in which newspapers played a great role. Different information can be provided by this study, as the relation between political affiliation of a newspaper and the positivity of the quotes it published.
 
@@ -41,7 +41,10 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
   <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
   <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
   <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
-   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1400" />
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
 
 
