@@ -64,8 +64,10 @@ During all its political involvement, Trump's was described as a divisive figure
 
 One of the first trend we see while looking at this graph is that the peaks are strongly correlated [TODO statistical test?] with small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
-![image](https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png)
-
+<p align="center">
+ ![image](https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png)
+</p>
+ 
 This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of the Trump's popularity rating over time.
 
 [insert, on the same graph, the popularity rating and the previous graph]
