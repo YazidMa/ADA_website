@@ -78,7 +78,7 @@ First, we look at the sentiments of the quote set over time.
 One of the first trends we see while looking at this graph is that the peaks are strongly correlated with a small number of quotes for this period of time. To reduce the variance, we decided to group the quotes on a 6 month time window instead of only one month.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png" width="900" />
+   <![image](https://user-images.githubusercontent.com/92359177/146580435-dca42bd7-18bd-4f57-a343-e44278e9c554.png)>
 </p>
  
 This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. https://fr.wikipedia.org/wiki/Bonjour Overall, the trend seems quite similar with what we have.
@@ -86,37 +86,47 @@ This is quite better, the fluctuations are not correlated with the number of quo
 Plotting over months can hide general trends over years.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146194929-20d9242b-d880-4424-b2c6-8dcd83db9dea.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146580564-907fa3be-6400-477a-8b0e-9c25be0b0c27.png)>
 </p>
 
 It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 2019, meaning a 7% decrease in 4 years. Between 2019 and 2020, his popularity increased to reach 0.19, but this is probably due to the decrease in quotations about Trump, leading to a huge variance in the result (almost 10% against 4% in 2018). As a conclusion, the more time Trump passed in office, the lower his popularity rating.
 
 But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers.
 
-We plotted the mean compound value for several speaker parameters. 
-![image](https://user-images.githubusercontent.com/91223105/146354906-630e0c96-3692-42de-b49c-4a9107e815d4.png)
+We plotted the mean compound value for several speaker parameters.
 
+**GRAPH NATIONALITY**
 <p align="center">
    <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
 </p>
 
-**GRAPH NATIONALITY**
-
 For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. We can see in particular that the South America continent is largely under-represented compared to the others. Africa is also under-represented but in a less marked way.
 
 **GRAPH GENDER**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 For gender, it is males who are more supportive of Trump than females. It appears that more men are quoting when talking about Trump than women (7979 against 1747), however these differences in numbers are probably due to biases in the original database rather than the subject of Trump.
 
 **GRAPH OCCUPATIONS**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.  
 
 **GRAPH PARTY**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 For the party, there are no differences between Republicans and Democrats. It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words). Moreover, we can note that the numbers of quotations is very well balanced.
 
 **GRAPH ETHNIC**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 Ethnic group are more complicated to analyze considering the number of quotes available: there are only few Asian and Latino-American people are quoted (respectively 17 and 4). Here it seems that the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result, and it could also be due to limitations of Vader.
 
@@ -125,12 +135,17 @@ In a more general way, it appears that all the mean value are slightly positive,
 We can also note that there are no extremes. Two hypotheses can be put forward: either the feelings are extreme in the given category and thus the positive and negative compensate each other to give a more nuanced set, or the feelings are nuanced from the start. We can investigate this thanks to the violinplots: in general, we notice that feelings about Trump are widely dispersed between -1 and 1, showing great diversity.
 
 **GRAPH VIOLINPLOT**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 So far, the results that show an average positive feeling are quite counter intuitive. For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
 We represented the percentage of negative sentences return by Flair for the previous categories.
 
-![image](https://user-images.githubusercontent.com/91223105/146430800-e17b6b28-1dc6-40d0-81a8-4fd0591c3612.png)
-![image](https://user-images.githubusercontent.com/91223105/146430834-77603837-850b-433d-9fc5-e601eaef0f3a.png)
+**GRAPH FLAIR**
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+</p>
 
 Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive.  
 Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.  
