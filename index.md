@@ -131,13 +131,8 @@ In a more general way, it appears that all the mean value are slightly positive,
 
 We can also note that there are no extremes. Two hypotheses can be put forward: either the feelings are extreme in the given category and thus the positive and negative compensate each other to give a more nuanced set, or the feelings are nuanced from the start. We can investigate this thanks to the violinplots: in general, we notice that feelings about Trump are widely dispersed between -1 and 1, showing great diversity.
 
-**GRAPH VIOLINPLOT**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/92359177/146586207-83c7a09c-f516-4a11-9772-b0e476bf91b6.png" width="300" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586329-ff711515-df80-4bdc-86aa-4f9630df7838.png" width="300" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586347-bdc78702-f34c-43a9-8443-f6410a514fb0.png" width="300" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586378-fde95b2e-41eb-44d9-a7c6-126f4c35aea9.png" width="300" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586462-a174ca04-350f-4fcc-9c42-2e058b90bda7.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/92359177/146587076-3b484bdf-61ae-44f4-a8cb-efd64dee70f6.png" width="800" />
 </p>
 
 So far, the results that show an average positive feeling are quite counter intuitive. For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
@@ -145,7 +140,7 @@ We represented the percentage of negative sentences return by Flair for the prev
 
 **GRAPH FLAIR**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146587778-6c19fa52-4b37-4876-a4d3-f618c5b1312f.png" width="800" />
 </p>
 
 Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive.  
