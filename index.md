@@ -139,13 +139,7 @@ These results are overall results from 2015 to 2020. But is there a difference i
    <img src="https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png" width="400" />
 </p>
 
-There is no obvious difference. We can however note maybe a slight decrease for North America, 
-For gender: we don't really see differences for women, but men's opinions seem to be less positive.
-For ethnic_group, academic_degree and religion: no significant differences but again analysis limited by the number.
-For occupations: it is interesting to note a less positive opinion over time in politics.
-For parties: Republicans have a fairly consistent opinion while Republicans have a less positive opinion.
-=> In conclusion, either no change or less positive opinion toward Trump over time.
-
+There is no obvious difference. We can however note maybe a slight decrease for North America, men, politics and Republicans. In conclusion, there is either no change or less positive opinion toward Trump over time.
 
 ### Trump's popularity in newspapers
 
