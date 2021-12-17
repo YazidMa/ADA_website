@@ -104,17 +104,31 @@ We plotted the mean compound value for several speaker parameters.
    <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
 </p>
 
-**TODO** : ajouter les violins plot pour voir la dispertion
+**GRAPH NATIONALITY**
 
-It appears that all the mean value are slightly positive, meaning that, on average, the persons are more quoted when they talk positively about Trump, which is rather the opposite of what one would expect. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
+For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. We can see in particular that the South America continent is largely under-represented compared to the others. Africa is also under-represented but in a less marked way.
+
+**GRAPH GENDER**
+
+For gender, it is males who are more supportive of Trump than females. It appears that more men are quoting when talking about Trump than women (7979 against 1747), however these differences in numbers are probably due to biases in the original database rather than the subject of Trump.
+
+**GRAPH OCCUPATIONS**
+
+For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.  
+
+**GRAPH PARTY**
+
+For the party, there are no differences between Republicans and Democrats. It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words). Moreover, we can note that the numbers of quotations is very well balanced.
+
+**GRAPH ETHNIC**
+
+Ethnic group are more complicated to analyze considering the number of quotes available: there are only few Asian and Latino-American people are quoted (respectively 17 and 4). Here it seems that the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result, and it could also be due to limitations of Vader.
+
+In a more general way, it appears that all the mean value are slightly positive, meaning that, on average, the persons are more quoted when they talk positively about Trump, which is rather the opposite of what one would expect. Of course, this also can be linked with the method used by Vader to determine if a sentence is positive or negative. This can introduce a bias in our study, so let's take that in mind when analyzing the results. But this can also be explained by the a respect for the presidential function, leading newspapers to be kind while quoting people talking about the president.
 
 We can also note that there are no extremes. Two hypotheses can be put forward: either the feelings are extreme in the given category and thus the positive and negative compensate each other to give a more nuanced set, or the feelings are nuanced from the start. We can investigate this thanks to the violinplots: in general, we notice that feelings about Trump are widely dispersed between -1 and 1, showing great diversity.
 
-Nationality, gender and occupation seem to present differences in opinion about Trump. For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. For gender, it is males who are more supportive of Trump than females. For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.  
-For the party, there are no differences between Republicans and Democrats. It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words).  
-Ethnic group are more complicated to analyze considering the number of quotes available: there are only few Asian and Latino-American people are quoted (respectively 17 and 4). Here it seems that the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result, and it could also be due to limitations of Vader.
-
-It is interesting to note also the differences in the number of citations between the labels. It appears that more men are quoting when talking about Trump than women (7979 against 1747). We can see in particular that the South America continent is largely under-represented compared to the others. Africa is also under-represented but in a less marked way. However, these differences in numbers are probably due to biases in the original database rather than the subject of Trump. On the other hand, in the case of parties, it is very well balanced.
+**GRAPH VIOLINPLOT**
 
 So far, the results that show an average positive feeling are quite counter intuitive. For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
 We represented the percentage of negative sentences return by Flair for the previous categories.
@@ -122,11 +136,8 @@ We represented the percentage of negative sentences return by Flair for the prev
 ![image](https://user-images.githubusercontent.com/91223105/146430800-e17b6b28-1dc6-40d0-81a8-4fd0591c3612.png)
 ![image](https://user-images.githubusercontent.com/91223105/146430834-77603837-850b-433d-9fc5-e601eaef0f3a.png)
 
-Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.  
-This time, North American, Asian, and African people are more opposed to Trump, while the other parts of the world are quite neutral. This is quite logic, as Trump was hugely criticized abroad.
-Women are more opposed to Trump than men who are quite neutral.  
-Moreover, both Democrats and Republicans are against Trump. One might think that we have the symmetric problem than Vader one, as Republican are not supposed to be against Trump. But in fact, Trump was criticized by his own party during his term (and no Democrat enhanced him). So Flair result is more realistic than Vader one.  
-As a conclusion for the comparison between Vader and Flair, we see that, globally, we find the same difference as before when we compare the labels for a given category (the difference between Democrat and Republican approval is the same with both Vader and Flair). It is rather "reassuring" concerning the results.  The main difference is the absolute positivity value, as Flair is more negative than Vader, which corresponds more to the reality.
+Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump. The disadvantage, however, is the lack of an error bar to better judge the differences.
+Furthermore, we see that, globally, we find the same difference as before when we compare the labels for a given category. It is rather "reassuring" concerning the results.
 
 These results are overall results from 2015 to 2020. But is there a difference in approval rating when we compare before and after Trump election?
 
