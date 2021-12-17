@@ -136,7 +136,7 @@ These results are overall results from 2015 to 2020. But is there a difference i
 
 We can see that the opinion before and after the campaign is extremely different with a strong increase of the percentage of negative quotations after the campaign for almost all the categories and labels. We would thus have a much more negative general opinion of Trump after his campaign (i.e. during his presidency), which is rather in line with what we expect to have in reality. However, it should be kept in mind that here there is no error bars, which may qualify the analysis.
 
-### Trump popularity in newspapers
+### Trump's popularity in newspapers
 
 Many newspapers and media have quoted Trump directly or people talking about him since the start of his campaign. Ranking the publishers by the number of quotations in both cases can be informative to assess who is talking about Trump. The following table shows the top 10 publishers along with the number of quotations **about** Trump and the political affiliation.
 
