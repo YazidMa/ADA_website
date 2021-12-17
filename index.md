@@ -81,7 +81,7 @@ One of the first trends we see while looking at this graph is that the peaks are
    <img src="https://user-images.githubusercontent.com/91223105/146196478-c876ed0b-a223-492d-97d1-857495fdbf79.png" width="900" />
 </p>
  
-This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. https://fr.wikipedia.org/wiki/Bonjour
+This is quite better, the fluctuations are not correlated with the number of quotes anymore! To be sure that our result is in accordance with the reality, we compared our results with a graph of Trump's popularity rating over time. https://fr.wikipedia.org/wiki/Bonjour Overall, the trend seems quite similar with what we have.
 
 Plotting over months can hide general trends over years.
 
@@ -132,8 +132,10 @@ We represented the percentage of negative sentences return by Flair for the prev
 ![image](https://user-images.githubusercontent.com/91223105/146430800-e17b6b28-1dc6-40d0-81a8-4fd0591c3612.png)
 ![image](https://user-images.githubusercontent.com/91223105/146430834-77603837-850b-433d-9fc5-e601eaef0f3a.png)
 
-Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive. Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump. The disadvantage, however, is the lack of an error bar to better judge the differences.
-Furthermore, we see that, globally, we find the same difference as before when we compare the labels for a given category. It is rather "reassuring" concerning the results.
+Immediately, it appears that the categories have a more negative opinion to Trump than the Vader ones. This nuances our analysis with Vader where we said that overall the sentiment towards Trump was slightly positive.  
+Vader is an algorithm that is rather optimized for social media data, whereas Flair is an algorithm trained on a dataset with larger topics (more specifically on IMDB dataset which is an online database of information related to films, television series, home videos, video games, and streaming content online). Moreover, Vader is a method that only cares about individual words and completely ignores the context in which it is used, while Flair considers the context. One could therefore think that here the results obtained with Flair are more correct, and this is also more in line with what we expect to get about Trump.  
+Furthermore, we see that, globally, we find the same difference as before when we compare the labels for a given category. It is rather "reassuring" concerning the results.  
+The disadvantage of Flair, however, is the lack of an error bar to better judge the differences.
 
 These results are overall results from 2015 to 2020. But is there a difference in approval rating when we compare before and after Trump election?
 
