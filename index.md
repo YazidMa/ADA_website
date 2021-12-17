@@ -36,29 +36,32 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
   <img src="https://user-images.githubusercontent.com/57459514/146549316-7e4c84f4-f1a7-4aa8-93a6-96e7243ec8f7.png" width="400" />
 </p>
 
+
+
 First off is the graph for the Racism topic. We can see that the topic is much more actively discussed by Trump before than during his time in office. The 2015 peak might be interpretable as linked to the death of Freddie Gray, on which Trump commented.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612563-c67c8fbc-0e89-49e1-bfb0-9968802b2d80.png" width="1400" />
 </p>
 The Economy topic is much more present before the election, which makes sense as Trump spent the whole campaign claiming that China was hurting the American economy by devaluating the yuan.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612607-225dec8c-b6f7-414b-baf4-59c0a0bfcfa5.png" width="1400" />
 </p>
 Below is shown the Environment topic, for which the three maxima also occur before or right after Trump entered office, but not much talk afterwards. This is understandable as Trump favored acting in the shadows for this topic, having discretely suppressed 68 laws on environment.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612658-a409c26f-033d-42cf-8aa5-1a1a79b62260.png" width="1400" />
 </p>
 Next up is the Foreign Policy, a topic which Trump relatively ignored before he was elected, but then took great importance. Indeed, during his time in office, Trump faced several foreign crises. We interpret the three major peaks on the graph as follows:
 
  - 2017 peak: this probably corresponds to the crisis with North Korea (this is supported by the prominence of "Korea" in the word cloud). 
  - 2018 peak: could be linked to the crisis with Pakistan ("Pakistan" and "Afghanistan" are important words in the word cloud), as Trump tweeted in January that Pakistan rewarded US aid with "nothing but lies and deceit".
  - 2019 peak: could correspond to the Ukraine affair, in which, in September 2019, a whistleblower revealed that Trump asked the Ukrainian president to investigate Joe Biden's son.
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612729-750d477a-682b-4cf3-bc74-0d766d5d2203.png" width="1400" />
 </p>
 The last topic we selected is Pandemic, with a sharp increase at the beginning of the Covid-19 pandemic, and almost no prior discussion.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612756-47abd551-6a9a-47c8-97df-04a44f6dabf1.png" width="1400" />
 </p>
 Finally, we show the evolution of the topics all together. We notice that the scales of topic frequencies are quite different, with Economy and Environment being relatively less frequent and Foreign policy (and eventually Pandemic) being more prominent in Trump's speech. 
 <p align="center">
