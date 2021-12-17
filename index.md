@@ -166,7 +166,7 @@ Many newspapers and media have quoted Trump directly or people talking about him
 Except for the fact that all of these publishers are based in the United States, we cannot extract any trend from that table. It seems that the political affiliation of the publishers is not correlated with the number of quotations. Conservative, liberal and non-affiliated media all report quotations about Trump. Repeating the procedure with the quotations **from** Trump being used by publishers yields different results.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146590678-64d6838b-002d-44e0-a258-30c5204d0756.png" width="500" />
+   <img src="https://user-images.githubusercontent.com/91223105/146611156-bcd4a2cc-dcf1-4d24-b811-4de919558723.png" width="500" />
 </p>
 
 The first observation is that the number of quotations is much higher, therefore the results can be slightly more trusted. Additionally, it appears that conservative and non-affiliated newspaper quote Trump the most. However, it is not sufficient to clearly state that either the conservative over-promote Trump or that the Liberals do not quote him on purpose. The missing part of the analysis is the actual content of the quotes.
