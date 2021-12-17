@@ -44,9 +44,14 @@ Below are shown word clouds for each topic, to illustrate what kind of vocabular
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547906-80e30c6d-b5ca-41a0-b799-ce56ebc9dbad.png" width="1400" />
 </p>
+Next up is the Foreign Policy, a topic which Trump relatively ignored before he was elected, but then took great importance. Indeed, during his time in office, Trump faced several foreign crises. We interpret the three major peaks on the graph as follows:
+- 2017 peak: this probably corresponds to the crisis with North Korea (this is supported by the prominence of "Korea" in the word cloud). 
+- 2018 peak: could be linked to the crisis with Pakistan ("Pakistan" and "Afghanistan" are important words in the word cloud), as Trump tweeted in January that Pakistan rewarded US aid with "nothing but lies and deceit"
+- 2019 peak: could correspond to the Ukraine affair, in which, in September 2019, a whistleblower revealed that Trump asked the Ukrainian president to investigate Joe Biden's son.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547915-45294a37-9a04-4371-bfa9-2bb08fb61a9d.png" width="1400" />
 </p>
+The last topic we selected is Pandemic, with a sharp increase at the beginning of the Covid-19 pandemic, and almost no prior discussion.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57459514/146547862-e5ff3cea-5fc5-4af8-88c4-5217b3d067c7.png" width="1400" />
 </p>
@@ -55,18 +60,9 @@ Finally, we show the evolution of the topics all together. We notice that the sc
   <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
 </p>
 
-
-[insert the repartition over time of the Trump's topics]
-
-[insert the analysis of the graph above]
-
-THOMAS POUR TON ANALYSE:
-- foreign policy: le pic en 2017 correspond probablement à la crise avec la Corée du Nord (corroboré par le fait que ce soit un des plus gros mots du nuage). Celui de 2018 pourrait être lié à la crise avec le Pakistan (les mots Pakistan et Afghanistan sont gros dans le nuage), Trump tweetant en janvier que le Pakistan rewarded US aid with "nothing but lies and deceit". Il trouvait que les Pakistanais ne luttaient pas assez contre les Talibans à leur frontière avec l'Afghanistan, ce qui favoriserait selon lui le terrorisme. Le ppic de 2019 pourrait correspondre à l'affaire ukrainienne, puisqu'en septembre 2019, un lanceur d'alerte révèle que Trumpa demandé au président ukrainien de faire une enquête sur le fils de Joe Biden
 - racism je n'ai pas trouvé grand chose, surtout que les mots qui resortent le plus sont en lien avec la religiion plus que le reacisme. A noter qu'apparemment, Trump utilise presque 2 fois plus de mots faisant référence directement à Dieu que n'importe quel autre président de ces 100 dernières années pour se mettre les milieux religieux dans la poche, ce qui pourrait expliquer le pic en 2016 juste avant l'élection. Le pic de 2015 pourrait s'expliquer par la mort de Freddie Gray (Trump a en effet commenté l'affaire) mais peu de mots du nuage de mots sont en rapport avec l'affaire.
 - economy: il en parle bcp pendant sa campagne puis peu après ce qui semble logique. Pendant toute la campagne il a clamé que la Chine hurts the American economy by devaluating the yuan.
 - environnement: probablement pas grand chose puisque Trump a préféré agir dans l'ombre, supprimant 68 lois environnementales en toute discrétion
-- pandemic c'est bien sûr le Corona
-- ne pas oublier de dire que Trump ne parle pas d'éducation ni de je ne sais plus quoi
 
 ## Trump's popularity
 
