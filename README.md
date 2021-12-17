@@ -1,2 +1,2 @@
 # ADA_website
-Web site for the ADA Milestone 3
+Website for the ADA Milestone 3
