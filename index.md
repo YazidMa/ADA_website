@@ -196,6 +196,9 @@ Even though the mean value is slightly negative this time, a similar pattern as 
 In conclusion, the analysis proposed above seems to indicate that the  quotes about and from Trump published by a media is not representative  of its political affiliation. This could be due to respect towards the president or self censorship. Additionally, the  sentiment analysis is probably not perfect, resulting in noisy labels  for which the uncertainty is difficult to characterize. Moreover, it can be observed that the results of this analysis is coherent with the previous section in which we found that the difference between the sentiment analysis of the quotations about Trump were not significant between democrats and republicans. Finally, one could point out that this conclusion is not really surprising as the  sentiment of the quotations about and from a single man, however famous and power he is, is a weak signal: characterizing the affiliation of a publisher based on this estimator sounds like a shortcut and our analysis shows  that it is indeed one.
 
 
-
-
 # Conclusion
+
+Part 1 ....  
+Trump's popularity is better before his campaign and decreases over time. It can be noted that this popularity also depends on the population groups. For example, Asia has worse feelings towards Trump than Europe, Australia and North America, or politicians have worse feelings than sports and movies. Interestingly, the political parties do not have very different opinions. However, it is important to keep in mind that some bias may exist in the choice of quotes in Quotebank from the start.
+Part 2....  
+Phrase finale
