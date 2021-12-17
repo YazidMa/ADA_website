@@ -138,7 +138,6 @@ We can also note that there are no extremes. Two hypotheses can be put forward: 
 So far, the results that show an average positive feeling are quite counter intuitive. For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
 We represented the percentage of negative sentences return by Flair for the previous categories.
 
-**GRAPH FLAIR**
 <p align="center">
    <img src="https://user-images.githubusercontent.com/92359177/146587778-6c19fa52-4b37-4876-a4d3-f618c5b1312f.png" width="800" />
 </p>
@@ -152,11 +151,7 @@ These results are overall results from 2015 to 2020. But is there a difference i
 
 **TODO : changer image par celle de Vader plutôt**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/92359177/146586207-83c7a09c-f516-4a11-9772-b0e476bf91b6.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586329-ff711515-df80-4bdc-86aa-4f9630df7838.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586347-bdc78702-f34c-43a9-8443-f6410a514fb0.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586378-fde95b2e-41eb-44d9-a7c6-126f4c35aea9.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/92359177/146586462-a174ca04-350f-4fcc-9c42-2e058b90bda7.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146588657-44bc07a3-8a09-49f4-a4c8-dececdf8cbd8.png" width="800" />
 </p>
 
 There is no obvious difference. We can however note maybe a slight decrease for North America, men, politics and Republicans. In conclusion, there is either no change or less positive opinion toward Trump over time.
