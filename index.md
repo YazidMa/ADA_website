@@ -2,7 +2,7 @@
 
 # Abstract
 
-In 2016, the world was completely astonished: Donald Trump was elected president while all the surveys done until this moment estimated Hillary Clinton winner. The four following years were marked by shocking declarations on Twitter, controversies, and withdrawal from previous agreements. But even if this president had been highly criticized by a part of the international community, he was almost ready to run a second term on 2020. In order to understand better how Donald Trump brought support to his cause, two main parameters must be studied: what was his program before and after his nomination, and how his popularity rating evolved among time.
+In 2016, the world was completely astonished: Donald Trump was elected president of the United States while all the polls estimated that Hillary Clinton would win. The following four years were marked by shocking declarations on Twitter, controversies, and withdrawals from previous agreements. But even though this president has been highly criticized by part of the international community, he was almost ready to run for a second term in 2020. In order to better understand how Donald Trump brought support to his cause, two main parameters must be studied: how his agenda changed before and after him entering office, and how his popularity evolved over time.
 
 
 # Introduction
