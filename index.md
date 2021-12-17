@@ -95,7 +95,7 @@ It appears that Trump's popularity decreased from 0.22 to 0.15 between 2015 and 
 
 But is this trend representative of all the American population? Probably not. So to distinguish people that agree or not with Trump policies, we used information provided about the speakers.
 
-We plotted the mean compound value for several speaker parameters.
+We plotted the mean compound value for several speaker parameters. The numbers on the graphs correspond to the numbers of quotations for each label.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/92359177/146584161-ffc6058b-ab07-4c46-9933-8b94b5bd9529.png" width="300" />
@@ -159,11 +159,15 @@ There is no obvious difference. We can however note maybe a slight decrease for 
 
 Many newspapers and media have quoted Trump directly or people talking about him since the start of his campaign. Ranking the publishers by the number of quotations in both cases can be informative to assess who is talking about Trump. The following table shows the top 10 publishers along with the number of quotations **about** Trump and the political affiliation.
 
-![image](https://user-images.githubusercontent.com/91223105/146590604-f0fba339-71c2-4a7a-a028-bbd79a747548.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146590604-f0fba339-71c2-4a7a-a028-bbd79a747548.png" width="800" />
+</p>
 
 Except for the fact that all of these publishers are based in the United States, we cannot extract any trend from that table. It seems that the political affiliation of the publishers is not correlated with the number of quotations. Conservative, liberal and non-affiliated media all report quotations about Trump. Repeating the procedure with the quotations **from** Trump being used by publishers yields different results.
 
-![image](https://user-images.githubusercontent.com/91223105/146590678-64d6838b-002d-44e0-a258-30c5204d0756.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146590678-64d6838b-002d-44e0-a258-30c5204d0756.png" width="800" />
+</p>
 
 The first observation is that the number of quotations is much higher, therefore the results can be slightly more trusted. Additionally, it appears that conservative and non-affiliated newspaper quote Trump the most. However, it is not sufficient to clearly state that either the conservative over-promote Trump or that the Liberals do not quote him on purpose. The missing part of the analysis is the actual content of the quotes.
 
