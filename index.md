@@ -133,7 +133,11 @@ We can also note that there are no extremes. Two hypotheses can be put forward: 
 
 **GRAPH VIOLINPLOT**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586207-83c7a09c-f516-4a11-9772-b0e476bf91b6.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586329-ff711515-df80-4bdc-86aa-4f9630df7838.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586347-bdc78702-f34c-43a9-8443-f6410a514fb0.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586378-fde95b2e-41eb-44d9-a7c6-126f4c35aea9.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586462-a174ca04-350f-4fcc-9c42-2e058b90bda7.png" width="300" />
 </p>
 
 So far, the results that show an average positive feeling are quite counter intuitive. For that reason, we will compare Vader result with Flair ones. Flair is another pre-trained sentiment analysis method. Contrary to Vader, it only returns “positive” or “negative” while analysing a sentence instead of a compound.
@@ -153,10 +157,11 @@ These results are overall results from 2015 to 2020. But is there a difference i
 
 **TODO : changer image par celle de Vader plutôt**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430995-f96d0fb7-9a54-4eae-b532-8b46176d20b8.png" width="400" />
-    <img src="https://user-images.githubusercontent.com/91223105/146431034-cabbf089-0373-470e-bbb8-df0b6dc41303.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/91223105/146431105-159090e7-cbac-4919-993c-71c762cfd043.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586207-83c7a09c-f516-4a11-9772-b0e476bf91b6.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586329-ff711515-df80-4bdc-86aa-4f9630df7838.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586347-bdc78702-f34c-43a9-8443-f6410a514fb0.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586378-fde95b2e-41eb-44d9-a7c6-126f4c35aea9.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/92359177/146586462-a174ca04-350f-4fcc-9c42-2e058b90bda7.png" width="400" />
 </p>
 
 There is no obvious difference. We can however note maybe a slight decrease for North America, men, politics and Republicans. In conclusion, there is either no change or less positive opinion toward Trump over time.
