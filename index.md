@@ -60,8 +60,9 @@ The last topic we selected is Pandemic, with a sharp increase at the beginning o
 </p>
 Finally, we show the evolution of the topics all together. We notice that the scales of topic frequencies are quite different, with Economy and Environment being relatively less frequent and Foreign policy (and eventually Pandemic) being more prominent in Trump's speech. 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57459514/146547835-350d8e20-cf47-4ddc-8e15-1255e948d8ca.png" width="1400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146612380-668bc4a0-4c72-4d5f-8b13-f89ef373035d.png" width="1400" />
 </p>
+
 
 ## Trump's popularity
 
