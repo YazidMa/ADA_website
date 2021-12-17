@@ -18,7 +18,7 @@ About Trump's supporters and opponents:
 
 # Dataset
  
-To answer the questions, we needed data. This took the form of quotations extracted from news articles in _Quotebank: A Corpus of Quotations from a Decade of News. Briefly, this dataset is made of quotations that were extracted from English language articles, and their authors were estimated by the program with a confidence value. As the quotation corpus is huge (178 million quotations), we select only the quotations in the period which should a priori concern Trump the most, i.e. data from 2015 to 2020 (one year before Trump’s election until the end of his term). Furthermore, only the remaining quotations from Trump or talking about Trump in English were kept. After this preprocessing step, only 1,097,729 quotes remained, which is enough for our analysis, yet remains manageable.
+To answer the questions, we needed data. This took the form of quotations extracted from news articles in _Quotebank: A Corpus of Quotations from a Decade of News. Briefly, this dataset is made of quotations that were extracted from English language articles, and their authors were estimated by the program with a confidence value. As the quotation corpus is huge (178 million quotations), we select only the quotations in the period which should a priori concern Trump the most, i.e. data from 2015 to 2020 (one year before Trump’s election until the end of his term). Furthermore, only the remaining quotations from Trump or talking about Trump in English were kept. After this preprocessing step, only 1,097,729 quotes remained, which is manageable.
 
 # Results
 
