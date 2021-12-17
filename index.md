@@ -95,37 +95,32 @@ But is this trend representative of all the American population? Probably not. S
 
 We plotted the mean compound value for several speaker parameters.
 
-**GRAPH NATIONALITY**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146584161-ffc6058b-ab07-4c46-9933-8b94b5bd9529.png)>
 </p>
 
 For nationality, countries in Europe, Australia, and North America are more supportive of Trump than those in Africa and Asia. We can see in particular that the South America continent is largely under-represented compared to the others. Africa is also under-represented but in a less marked way.
 
-**GRAPH GENDER**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146584244-b813524f-3a27-4d13-b482-d761cc8ff1b8.png)>
 </p>
 
 For gender, it is males who are more supportive of Trump than females. It appears that more men are quoting when talking about Trump than women (7979 against 1747), however these differences in numbers are probably due to biases in the original database rather than the subject of Trump.
 
-**GRAPH OCCUPATIONS**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146584423-4c7f1d92-a449-4244-a0e7-958bf54a83ef.png)>
 </p>
 
 For occupations, drivers, sports, and art are more favorable to Trump than politics, law, journalists, and science.  
 
-**GRAPH PARTY**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146584377-ad5c4003-6f8c-4d24-846d-1ce40b19d336.png)>
 </p>
 
 For the party, there are no differences between Republicans and Democrats. It is interesting to note that both Republican and Democrat are in favour of Trump. However, as they present a similar mean compound, the explanation is probably the same as before: newspapers only quote person talking with respect of the president, leading to a bias selection of the quotes (considering that people against the president are more likely to be aggressive in their words). Moreover, we can note that the numbers of quotations is very well balanced.
 
-**GRAPH ETHNIC**
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/91223105/146430504-d3b32371-d097-49a3-b2a7-ca1565161b8c.png" width="400" />
+   <![image](https://user-images.githubusercontent.com/92359177/146584296-0a9f9ff8-0630-4306-9a04-bfeb449e35a7.png)>
 </p>
 
 Ethnic group are more complicated to analyze considering the number of quotes available: there are only few Asian and Latino-American people are quoted (respectively 17 and 4). Here it seems that the ethnic group the more in favor of Trump are the African American, ahead Caucasian. This is clearly not what was showed by the polls between 2015 and 2020. This result could be explain by the will of Conservative newspapers to improve the image of Trump by quoting African Americans in favor of Trump. But this is only an hypothesis which is probably not enough to explain this result, and it could also be due to limitations of Vader.
