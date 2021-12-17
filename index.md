@@ -173,16 +173,16 @@ The first observation is that the number of quotations is much higher, therefore
 
 Intuitively, the idea that all publishers quote content related to Donald Trump is not surprising. After all, he was the president of the United States at the time. However, it may seem plausible that the conservative newspapers would depict him more positively than the liberal ones. Conversely, the opposite has been observed, for instance, when Trump withdrew the accreditation of the journalist Jim Acosta and Fox News, a conservative media commonly known to be highly sympathetic towards him, criticized his decision. The sentiment analysis proposed above can be used to assess this hypothesis.
 
-![image](https://user-images.githubusercontent.com/61464628/146427939-cdb3c37a-05da-48cd-ba37-c4708c557dc1.png)
+![image](https://user-images.githubusercontent.com/91223105/146607721-71a4eb87-5fa3-4fee-8e32-ced59c5c8842.png)
 
 The figure shown above displays the average Vader compound for the top 10 publishers of quotations **about** Trump. At first glance, it appears that liberal media outlets depict a more positive view of Donald Trump through their quotations. The first conservative publisher only appears in the fourth position. However, the confidence intervals shown in black should be taken into account. Indeed, it can be argued that for a slightly different sampling of the newspaper space, the ranking could have been completely different. Again, the same analysis can be performed for quotations **from** Trump.
 
-![image](https://user-images.githubusercontent.com/61464628/146427978-d1374b67-5ab6-4935-8284-2a60a5f0e009.png)
+![image](https://user-images.githubusercontent.com/91223105/146607777-8157733d-2231-4bd6-bed1-9de8c912be8f.png)
 
 First, it appears that most publishers have a similar score which is very close to the average score on the entire dataset. Again, the highest ranked newspaper is liberal and the the first conservative one ranks four. However, similarly to the previous paragraph, the confidence intervals, even though they are much more narrow, still indicate that the ranking is quite arbitrary. It seems that the quotations from or about Trump are not well correlated with the political affiliation of the publishers who decides to cite them. To get an idea of the big picture, it can be informative to plot the average Vader compound as a function of the number of quotations for the entire dataset, regardless of the political affiliations.
 
-![image](https://user-images.githubusercontent.com/61464628/146428033-59fc19be-42c8-4f56-9788-688bebf10364.png)
-![image](https://user-images.githubusercontent.com/61464628/146428045-710a2df9-735f-4829-8cb4-0e92e5c7196b.png)
+![image](https://user-images.githubusercontent.com/91223105/146607555-7b9947e4-29b2-43fe-a447-0340b9d2ff7a.png)
+![image](https://user-images.githubusercontent.com/91223105/146607616-8e002102-8b3e-486c-a8a4-021de2d04989.png)
 
 
 These figures speak for themselves. It clearly appears that the sentiment associated to the quotations converges to a slightly positive value in both cases. For sure, a region of extreme opinions can be observed in both plots but they correspond to an interval of small number of quotations which is therefore extremely noisy. 
