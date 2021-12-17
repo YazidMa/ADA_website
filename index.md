@@ -26,20 +26,12 @@ To answer the questions, we needed data. The one we use were extracted by an met
 More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png" width="400" />
   <img src="https://user-images.githubusercontent.com/57459514/146549292-d25f50b4-7573-451b-b719-fbb39f406585.png" width="400" />
-   <img src="https://user-images.githubusercontent.com/57459514/146549309-c24c80b3-4ade-44be-b548-d008372c0b4b.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/57459514/146549309-c24c80b3-4ade-44be-b548-d008372c0b4b.png" width="400" />
   <img src="https://user-images.githubusercontent.com/57459514/146549313-60849da0-de3c-41f7-9eb6-00fc555a8423.png" width="400" />
   <img src="https://user-images.githubusercontent.com/57459514/146549316-7e4c84f4-f1a7-4aa8-93a6-96e7243ec8f7.png" width="400" />
-
 </p>
-
-![wc_racism_words](https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png)
-![wc_economy_words](https://user-images.githubusercontent.com/57459514/146549292-d25f50b4-7573-451b-b719-fbb39f406585.png)
-![wc_environment_words](https://user-images.githubusercontent.com/57459514/146549309-c24c80b3-4ade-44be-b548-d008372c0b4b.png)
-![wc_foreign_policy_words](https://user-images.githubusercontent.com/57459514/146549313-60849da0-de3c-41f7-9eb6-00fc555a8423.png)
-![wc_pandemic_words](https://user-images.githubusercontent.com/57459514/146549316-7e4c84f4-f1a7-4aa8-93a6-96e7243ec8f7.png)
-
 
 ![topic_racism](https://user-images.githubusercontent.com/57459514/146547879-3e12cce3-c8eb-45a5-9e60-232251e9dab0.png)
 ![topic_economy](https://user-images.githubusercontent.com/57459514/146547894-e8b5029c-15ed-4353-8828-2bf52a1aaa86.png)
