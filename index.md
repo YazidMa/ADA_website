@@ -25,7 +25,7 @@ To answer the questions, we needed data. The one we use were extracted by an met
 
 More than all other presidents, Trump published many ideas on Twitter, that are then quoted by newspaper. For that reason, most of his ideas are available in our database. To extract them, we just had to consider only the quotations whose author is Trump. At this point, the operation became a bit more complicated: how determine the topics in Trump's quotations? We decided to use [insert the method used], which briefly [insert the mode of action of the methodo used]. The topics were classified into [insert the names of the categories], whose repartition over time is shown below.
 
-<p float="center">
+<p align="center">
    <img src="https://user-images.githubusercontent.com/57459514/146549269-b955f224-9e15-4dcb-a8e3-b7dab6c187c4.png" width="400" />
   <img src="https://user-images.githubusercontent.com/57459514/146549292-d25f50b4-7573-451b-b719-fbb39f406585.png" width="400" />
    <img src="https://user-images.githubusercontent.com/57459514/146549309-c24c80b3-4ade-44be-b548-d008372c0b4b.png" width="400" />
