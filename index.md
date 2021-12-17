@@ -114,10 +114,13 @@ This time, both Democrats and Republicans are against Trump. One might think tha
 As a conclusion for the comparison between Vader and Flair, we see that, globally, we find the same difference as before when we compare the labels for a given category (the difference between Democrat and Republican approval is the same with both Vader and Flair). It is rather "reassuring" concerning the results.  The main difference is the absolute positivity value, as Flair is more negative than Vader, which corresponds more to the reality.
 These results are overall results from 2015 to 2020. But is there a difference in approval rating after Trump election?
 
-![image](https://user-images.githubusercontent.com/91223105/146430995-f96d0fb7-9a54-4eae-b532-8b46176d20b8.png)
-![image](https://user-images.githubusercontent.com/91223105/146431034-cabbf089-0373-470e-bbb8-df0b6dc41303.png)
-![image](https://user-images.githubusercontent.com/91223105/146431105-159090e7-cbac-4919-993c-71c762cfd043.png)
-![image](https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png)
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/91223105/146430995-f96d0fb7-9a54-4eae-b532-8b46176d20b8.png" width="400" />
+    <img src="https://user-images.githubusercontent.com/91223105/146431034-cabbf089-0373-470e-bbb8-df0b6dc41303.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/91223105/146431105-159090e7-cbac-4919-993c-71c762cfd043.png" width="400" />
+   <img src="https://user-images.githubusercontent.com/91223105/146431179-83428fce-9df7-44b0-af38-a950de3f5269.png" width="400" />
+</p>
 
 We can see that the opinion before and after the campaign is extremely different with a strong increase of the percentage of negative quotations after the campaign for almost all the categories and labels. We would thus have a much more negative general opinion of Trump after his campaign (i.e. during his presidency), which is rather in line with what we expect to have in reality. However, it should be kept in mind that here there is no error bars, which may qualify the analysis.
 
